@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>survey form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id='title'>Formulário Copa</h1>
+    <p id='description'>Obrigado pelo seu palpite</p>
+    <form id='survey-form'>
+      <fieldset>
+        <label for='name' id='name-label'>Nome<input id='name' name='name-label' type='text' required placeholder='Insira seu nome'>
+        <label for='email' id='email-label'>E-mail<input id='email' name='email-label' type='email' required placeholder='Insira seu e-mail'>
+        <label for='number' id='number-label'>Idade(opcional)<input id='number' name='age-label' type='number' min='10' max='99' placeholder='Idade'>
+      </fieldset>
+      <fieldset>
+        <label for='dropdown'>Quem vai marcar mais gols</label>
+        <select name='times' id='dropdown'>
+          <option value="neymar">Neymar</option>
+          <option value="richarlison">Richarlison</option>
+          <option value="vini jr">Vinicius Jr</option>
+          </select>
+       <h3> Você acha que o Brasil ganha?</h3>
+        <label for='vitoria'><input id='vitoria' type='radio' name='chute' value='1' class='inline'>Sim</label>
+        <label for='derrota'><input id='derrota' type='radio' name='chute' value='0' class='inline'>Não</label>
+      </fieldset>
+      <fieldset>
+        <h3>Quais times você acha que podem chegar na final? (3 no máximo)</h3>
+        <label for='brasil' name='finalistas'>
+          <input id='brasil' type='checkbox' class='inline' name='finalistas' value='brasil'/>Brasil</label>
+        <label for='argentina' name='finalistas'>
+          <input id='argentina' type='checkbox' value='argentina' class='inline' name='finalistas'/>Argentina</label>
+        <label for='frança' name='finalistas'>
+          <input id='frança' type='checkbox' value='frança' class='inline' name='finalistas'/>França</label>
+        <label for='inglaterra' name='finalistas'>
+          <input id='inglaterra' type='checkbox' value='inglaterra' class='inline' name='finalistas'/>Inglaterra</label>
+        <label for='espanha' name='finalistas'>
+          <input id='espanha' type='checkbox' value='espanha' class='inline' name='finalistas'/>Espanha</label>
+        <label for='portugal' name='finalistas'>
+          <input id='portugal' type='checkbox' value='portugal' class='inline' name='finalistas'/>Portugal</label>
+        <h3 for='final'>Como vai ser a final e qual placar
+            <textarea id='final' name='final' rows:'2' columns:'40' placeholder='Deixe seu palpite'></textarea>
+        </h3>
+      </fieldset>
+      <input type='submit' id='submit'/>
+    </form>
+  </body>
+</html>
+    

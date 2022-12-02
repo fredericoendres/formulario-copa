@@ -1,0 +1,101 @@
+body {
+    padding: 15px;
+    font-family: Arial;
+  }
+h1 {
+  font-family: Tahoma;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom:2px;
+}
+p {
+  font-family: Tahoma;
+  font-style: italic;
+  font-size: 14;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom:15px;
+}
+fieldset {
+  border: none;
+  padding-bottom:0px;
+}
+form {
+    width: 40vw;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #8FBC8B;
+    border-radius: 15px;
+  }
+label {
+  display: block;
+  margin:0.5rem 0;
+  font-family: Tahoma;
+  font-size: 16;
+}
+input[type='text'] {
+  margin: 5px 0 0;
+  width: 100%;
+  border-radius: 5px;
+  border: 5px;
+  height: 25px;
+  font-size: 14;
+  padding: 7px;
+}
+textarea {
+  margin: 5px 0 0;
+  width: 100%;
+  border-radius: 5px;
+  border: 5px;
+  height: 50px;
+  font-size: 14;
+  font-family:Tahoma;
+}
+input[type='email'] {
+  margin: 5px 0 0;
+  width: 100%;
+  border-radius: 5px;
+  border: 5px;
+  height: 25px;
+  font-size: 14;
+  padding: 7px;
+}
+input[type='number'] {
+  margin: 5px 0 0;
+  width: 100%;
+  border-radius: 5px;
+  border: 5px;
+  height: 25px;
+  font-size: 14;
+  padding: 7px;
+}
+select {
+  margin: 5px 0 0;
+  width: 100%;
+  border-radius: 5px;
+  border: 5px;
+  height: 25px;
+  font-size: 14;
+}
+::placeholder {
+  opacity: 0.6;
+}
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1rem;
+    border-color: green;
+    min-width: 368px;
+    border-radius: 5px;
+  }  
+html {
+  background-image:url(https://i0.wp.com/www.eclipseselect.org/wp-content/uploads/2018/05/WorldCupBackground.jpg?ssl=1);
+}
